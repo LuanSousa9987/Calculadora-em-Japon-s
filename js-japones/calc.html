@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<title>電卓プログラム</title>
+	<script src="calc.js"></script>
+</head>
+<header>
+	<div class="title-container">
+	  <h1 class="main-title">Ingenious Minds</h1>
+	  <h2 class="sub-title">We turn ideas into reality</h2>
+	</div>
+  </header>
+<body>
+	<form name="電卓">
+		<input type="text" name="結果" size="8" style="width: 320px;"><br>
+		<input type="button" value="1" onClick="数値入力(1)">
+		<input type="button" value="2" onClick="数値入力(2)">
+		<input type="button" value="3" onClick="数値入力(3)">
+		<input type="button" value="+" onClick="数値入力('+')"><br>
+		<input type="button" value="4" onClick="数値入力(4)">
+		<input type="button" value="5" onClick="数値入力(5)">
+		<input type="button" value="6" onClick="数値入力(6)">
+		<input type="button" value="-" onClick="数値入力('-')"><br>
+		<input type="button" value="7" onClick="数値入力(7)">
+		<input type="button" value="8" onClick="数値入力(8)">
+		<input type="button" value="9" onClick="数値入力(9)">
+		<input type="button" value="×" onClick="数値入力('*')"><br>
+		<input type="button" value="C" onClick="クリア()">
+		<input type="button" value="0" onClick="数値入力(0)">
+		<input type="button" value="=" onClick="計算()">
+		<input type="button" value="÷" onClick="数値入力('/')"><br>
+	</form>
+</body>
+</html>
